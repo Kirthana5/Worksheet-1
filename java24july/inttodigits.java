@@ -18,7 +18,7 @@ public class inttodigits {
         Scanner obj=new Scanner(System.in);
         System.out.println("Enter the number:");
         int num=obj.nextInt();
-        int temp=num,count=0,dig,i=0;
+        int temp=num,dig,i=0;
         int a[]=new int[10];
         
         for(;temp!=0;i++)
